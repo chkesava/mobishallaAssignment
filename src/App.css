@@ -1,0 +1,103 @@
+
+.main-container{
+  background-image: url('https://res.cloudinary.com/dvzei06gf/image/upload/v1710432483/bgyumllp0dqrud15wx0q.jpg');
+  background-size: cover;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100vh;
+}
+
+.main-heading {
+  color:cornsilk;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 60px;
+  font-style: italic;
+}
+
+.titles {
+  color: cornsilk;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+
+.highlitedContent {
+  color: gold;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.list-features {
+  color: cornsilk;
+  font-size: 20px;
+}
+
+.button-styling {
+  color: cornsilk;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #ff0000;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.talkTous-button {
+  background-color: #25d366;
+
+}
+
+.side-2{
+  margin-top: 30px;
+  
+  
+}
+.player-custom{
+  max-width: 100%;
+}
+.center-container{
+  padding-top: 10px;
+  text-align: center;
+}
+.desktop-version{
+  display:none;
+}
+
+.mobile-version{
+  display: block;
+}
+
+@media screen and (min-width: 1024px) {
+  .main-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 90px;
+    box-sizing: border-box;
+
+  }
+  .desktop-version{
+    display: block;
+  }
+  .mobile-version{
+    display: none ;
+  }
+  .side-2{
+    margin-left: 9px;
+  }
+}
+.footer{
+  background-color: #b50948;
+  padding: 40px;
+}
+.footer-headings{
+  color: #ffffff;
+
+}
+.fotter-para{
+  font-weight: bold;
+  color: #ffffff;
+}
